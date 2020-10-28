@@ -41,6 +41,7 @@ echo $OUTPUT->doctype() ?>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->favicon(); ?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d905f32e33.js" crossorigin="anonymous"></script>
 </head>
 
 <body <?php echo $OUTPUT->body_attributes(); ?>>
@@ -61,6 +62,35 @@ if ($toggleslideshow == 1) {
 }
 
 ?>
+
+<div class="container-fluid frontpage-numbers">
+        <div class="row">
+            <div class="col-md-3">
+                <h2><p>{{#str}} frontpagenumbersome, theme_moove {{/str}}</p>{{#str}} frontpagenumbernumbers, theme_moove {{/str}}</h2>
+            </div>
+
+            <div class="col-md-3 number">
+                <span class="fa fa-user-circle fa-4x"></span>
+                <h3>{{{ numberusers }}}</h3>
+                <hr />
+                <p>{{#str}} frontpagenumberusers, theme_moove {{/str}}</p>
+            </div>
+
+            <div class="col-md-3 number">
+                <span class="fa fa-graduation-cap fa-4x"></span>
+                <h3>{{{ numbercourses }}}</h3>
+                <hr />
+                <p>{{#str}} frontpagenumbercourses, theme_moove {{/str}}</p>
+            </div>
+
+            <div class="col-md-3 number">
+                <span class="fa fa-puzzle-piece fa-4x"></span>
+                <h3>{{{ numberactivities }}}</h3>
+                <hr />
+                <p>{{#str}} frontpagenumberactivities, theme_moove {{/str}}</p>
+            </div>
+        </div>
+    </div>
 <?php require_once(dirname(__FILE__) . '/includes/marketingspots.php'); ?>
 <?php echo $courserenderer->promoted_courses(); ?>
 
