@@ -90,7 +90,7 @@ if ($toggleslideshow == 1) {
                 <p>{{#str}} frontpagenumberactivities, theme_moove {{/str}}</p>
             </div>
         </div>
-    </div>
+</div>
 <?php require_once(dirname(__FILE__) . '/includes/marketingspots.php'); ?>
 <?php echo $courserenderer->promoted_courses(); ?>
 
