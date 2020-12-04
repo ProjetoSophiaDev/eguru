@@ -106,11 +106,7 @@ function eguru_marketingspot() {
                     $content .= html_writer::start_tag('p');
                     $content .= $mspdescription;
                     $content .= html_writer::end_tag('p');
-                    if ($i == 4){
-                        $content .= html_writer::start_tag('a', array('href' => 'course'));
-                        $content .="Clique aqui e veja os cursos disponíveis!";
-                        $content .= html_writer::end_tag('a');
-                    }
+
                 $content .= html_writer::end_tag('div');
             }
             $content .= html_writer::end_tag('div');

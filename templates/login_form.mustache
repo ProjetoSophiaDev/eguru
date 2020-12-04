@@ -126,9 +126,6 @@
 
             <div class="">
                 <h2>{{#str}} loginheader, theme_eguru {{/str}} </h2>
-                <div class="warning-login"><p>Professores e Alunos da UTFPR deverão utilizar o mesmo Login e Senha
-utilizados no Moodle Institucional e sistemas internos.<br>
-Usuário da Comunidade externa faça sua autenticação por meio de uma conta Google. </p></div>
                 <form class="m-t-1" action="{{loginurl}}" method="post" id="login" {{^passwordautocomplete}}autocomplete="off"{{/passwordautocomplete}}>
                     <input id="anchor" type="hidden" name="anchor" value="">
                     <script>document.getElementById('anchor').value = location.hash;</script>
@@ -150,7 +147,7 @@ Usuário da Comunidade externa faça sua autenticação por meio de uma conta Go
                             <i class="fa fa-user"></i>
                         </div>
                     </div>
-                    <br/>
+
                     <div class="form-fields">
                         <label for="password" class="">{{#str}} password {{/str}}</label>
 
@@ -162,15 +159,15 @@ Usuário da Comunidade externa faça sua autenticação por meio de uma conta Go
                             <i class="fa fa-lock"></i>
                         </div>
                     </div>
-                    <br/>
+
                     <button type="submit" class="btn btn-primary btn-block" id="loginbtn">{{#str}}login{{/str}}</button>
 
-                    <br/>
+                    <br>
 
                     <div class="forgetpass m-t-1">
                         <p><a href="{{forgotpasswordurl}}">{{#str}}forgotten{{/str}}</a></p>
                     </div>
-<br/>
+
                     {{#rememberusername}}
                         <div class="rememberpass m-t-1">
                             <input type="checkbox" name="rememberusername" id="rememberusername" value="1" {{#username}}checked="checked"{{/username}} />

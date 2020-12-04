@@ -29,17 +29,17 @@
 defined('MOODLE_INTERNAL') || die;
 
 // The current module version (Date: YYYYMMDDXX).
-$plugin->version   = 2020073000;
+$plugin->version   = 2020120100;
 
 
 // Version's maturity level.
 $plugin->maturity = MATURITY_STABLE;
 
 // Plugin release version.
-$plugin->release = 'v3.9';
+$plugin->release = 'v3.10';
 
 // Requires this Moodle version.
-$plugin->requires  = 2020061500;
+$plugin->requires  = 2020110900;
 					
 // Full name of the plugin (used for diagnostics).
 $plugin->component = 'theme_eguru';
