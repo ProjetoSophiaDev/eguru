@@ -111,6 +111,11 @@ function eguru_marketingspot() {
                         $content .="Clique aqui e veja os cursos disponíveis!";
                         $content .= html_writer::end_tag('a');
                     }
+                    if ($i == 3){
+                        $content .= html_writer::start_tag('a', array('href' => 'mod/customcert/verify_certificate.php'));
+                        $content .="verifique seu certificado aqui!";
+                        $content .= html_writer::end_tag('a');
+                    }
                 $content .= html_writer::end_tag('div');
             }
             $content .= html_writer::end_tag('div');
