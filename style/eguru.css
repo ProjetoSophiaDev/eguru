@@ -5645,3 +5645,59 @@ button.close:focus,
 .coursecat-management-header > div > div {
     display: inline-block !important;
 }
+
+.frontpage-numbers {
+    background: rgba(56, 39, 56, .25);
+    padding: 8rem 0;
+
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+        color: #fff;
+
+        h2 {
+            color: rgba(56, 39, 56, .25);
+            -webkit-filter: invert(100%);
+            filter: invert(100%);
+            font-weight: 800;
+            margin: 1rem 0 0 0;
+            font-size: 3.2rem;
+            text-transform: uppercase;
+
+            p {
+                font-weight: 400;
+            }
+        }
+
+        .number {
+            text-align: center;
+
+            span {
+                color: #fff;
+                font-weight: 400;
+            }
+
+            h3 {
+                color: #fff;
+                font-size: 1.7rem;
+                font-weight: 900;
+                margin: 0.3em 0;
+                padding: 0;
+            }
+
+            hr {
+                width: 80%;
+                background: #fff;
+                display: inline-block;
+            }
+
+            p {
+                color: #fff;
+                font-weight: 100;
+                text-transform: uppercase;
+                font-size: 1.2em;
+                margin: 0;
+            }
+        }
+    }
+}
