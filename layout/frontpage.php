@@ -151,6 +151,11 @@ $( function() {
 </script>
 
 <?php
+    require_once(dirname(__FILE__) . '/includes/frontpage_numbers.php');
+    echo $frontpage_numbers_layout;
+?>
+
+<?php
     require_once(dirname(__FILE__) . '/includes/footer.php');
     echo $footerlayout;
 ?>
