@@ -1,5 +1,5 @@
 
-#About Eguru Moodle theme
+# About Eguru Moodle theme
 
 Eguru is a beautiful and fully responsive Moodle theme well suited for Universities,Schools & Online learning websites.
 
@@ -9,15 +9,15 @@ Eguru is a beautiful and fully responsive Moodle theme well suited for Universit
     Authors :   LMSACE Dev Team
     Copyright © 2015 onwards www.lmsace.com
 
-#Supported moodle versions
+# Supported moodle versions
 
 Compatible with Moodle 3.11
 Supported browsers
 
 IE9+
 
-#Recent versions of all modern browsers
-Eguru theme - Installation steps
+Recent versions of all modern browsers
+# Eguru theme - Installation steps
 
     On your download pacakge, you will find theme_eguru.zip
     Unzip - theme_eguru.zip, you will get folder 'eguru'
@@ -29,7 +29,7 @@ Eguru theme - Installation steps
     By clicking "Continue" button on success page , you will get options to change the eguru theme settings.
     You can modify the settings later too :-)
 
-#Steps to set eguru theme as default theme for your moodle system
+# Steps to set eguru theme as default theme for your moodle system
 
     Login as site administrator
     Go to Site administration -> Appearance -> Themes -> Theme selector
